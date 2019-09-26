@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="data.json"></script>
+
+	<title>Basic 1</title>
+
+	<link rel="stylesheet" href="">
+
+</head>
+
+
+<body>
+
+   <script>
+    /*My favorite sandwich is a Hamburger which has approximately 260 calories, along with it I enjoy eating Large French Fries which have about 570 calories.*/
+
+   var mydata = JSON.parse(sandwiches); // convert string into an object
+   var mydata2 = JSON.parse(fries);
+
+   console.log(mydata); // prints converted object into the console
+   console.log(mydata2);
+
+   /* Prints data from Object1 */
+
+   document.write("My favorite sandwich is a " + mydata[ 0].sandwich + " which has approximately " + mydata[0 ].calories + ", along with it I enjoy eating " + mydata2 [ 0].fries_size + " which have approximately " + mydata2[ 0].calories + " calories.");
+
+    document.write("<hr>"); // new line
+
+   </script>
+   
+</body>
+
+</html>

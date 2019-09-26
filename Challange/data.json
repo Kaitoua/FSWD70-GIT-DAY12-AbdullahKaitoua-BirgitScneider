@@ -1,0 +1,62 @@
+var products = [
+    {
+
+       "name": "Shoes",
+
+       "price": "99.90"
+
+   }, {
+
+       "name": "Dress",
+
+       "price": "89.90"
+
+   }, {
+
+       "name": "Skirt",
+
+       "price": "124.90"
+
+   }, {
+
+       "name": "Bag",
+
+       "price": "345.90"
+
+   },  {
+
+       "name": "Trouser",
+
+       "price": "94.90"
+
+   },  {
+
+        "name": "Make Up",
+
+       "price": "19.90"
+
+   },  {
+
+       "name": "T-Shirt",
+
+       "price": "39.90"
+
+   },  {
+
+       "name": "Shampoo",
+
+       "price": "9.90"
+
+   },  {
+
+       "name": "Skarf",
+
+       "price": "34.90"
+
+   },  {
+
+       "name": "Blouse",
+
+       "price": "56.90"
+
+   }]

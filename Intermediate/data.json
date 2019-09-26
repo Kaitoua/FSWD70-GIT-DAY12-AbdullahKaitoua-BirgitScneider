@@ -1,0 +1,142 @@
+var employees = [
+    {
+
+       "userId": "123",
+
+       "firstName": "Patrik",
+
+       "lastName": "Jonathan",
+
+       "emailAddress": "patrik.k.jonathan@gmail.com",
+
+       "jobTitle": "Developer",
+
+       "salary" : "3500"
+
+   }, {
+
+       "userId": "234",
+
+       "firstName": "Susann",
+
+       "lastName": "Smith",
+
+       "emailAddress": "Susann.smith@gmail.com",
+
+       "jobTitle": "Consultant",
+
+       "salary" : "3500"
+   }, {
+
+        "userId": "345",
+
+       "firstName": "Maria",
+
+       "lastName": "Taylor",
+
+       "emailAddress": "maria.tailor@gmail.com",
+
+       "jobTitle": "Tester",
+
+       "salary" : "3500"
+
+   }, {
+
+       "userId": "456",
+
+       "firstName": "Carl",
+
+       "lastName": "Barden",
+
+       "emailAddress": "barden@gmail.com",
+
+       "jobTitle": "Developer",
+
+       "salary" : "3500"
+
+   },  {
+
+       "userId": "567",
+
+       "firstName": "Jonathan",
+
+       "lastName": "Flyer",
+
+       "emailAddress": "Flytomoon@gmail.com",
+
+       "jobTitle": "Developer",
+
+       "salary" : "3500"
+
+   },  {
+
+       "userId": "678",
+
+       "firstName": "Peter",
+
+       "lastName": "Masters",
+
+       "emailAddress": "mastermind@gmail.com",
+
+       "jobTitle": "Software Tester",
+
+       "salary" : "3500"
+
+   },  {
+
+       "userId": "789",
+
+       "firstName": "Paul",
+
+       "lastName": "Solulu",
+
+       "emailAddress": "solulo@gmail.com",
+
+       "jobTitle": "Consultant",
+
+       "salary" : "3500"
+
+   },  {
+
+       "userId": "890",
+
+       "firstName": "Claire",
+
+       "lastName": "Fairwell",
+
+       "emailAddress": "fairwell@gmail.com",
+
+       "jobTitle": "Web Designer",
+
+       "salary" : "3500"
+
+   },  {
+
+       "userId": "901",
+
+       "firstName": "John",
+
+       "lastName": "Bathman",
+
+       "emailAddress": "bathingman@gmail.com",
+
+       "jobTitle": "Master Mind",
+
+       "salary" : "3500"
+
+   },  {
+
+       "userId": "101",
+
+       "firstName": "Cara",
+
+       "lastName": "Catman",
+
+       "emailAddress": "catman@gmail.com",
+
+       "jobTitle": "Captain",
+
+       "salary" : "3500"
+
+   }]
+ 

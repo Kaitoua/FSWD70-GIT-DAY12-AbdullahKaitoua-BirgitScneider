@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="data.json"></script>
+
+	<title>Intermediate</title>
+
+	<link rel="stylesheet" href="">
+
+</head>
+<body>
+
+
+	<script>
+		console.table(employees);
+  		document.writeln("<h2>Employees</h2>");
+
+    var i = 0
+    document.writeln("<table border='1'><tr>");
+    for (i = 0; i < employees.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>User ID</b></td><td width=50>" + employees[i].userId + "</td></tr>");
+        document.writeln("<tr><td><b>First Name</b></td><td width=50>" + employees[i].firstName + "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=50>" + employees[i].lastName + "</td></tr>");
+        document.writeln("<tr><td><b>E-Mail Adress</b></td><td width=50>" + employees[i].emailAddress + "</td></tr>");
+        document.writeln("<tr><td><b>Job Title</b></td><td width=50>" + employees[i].jobTitle + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=50>" + employees[i].salary + "</td></tr>");
+
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+  
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
